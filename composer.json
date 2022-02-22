@@ -2,7 +2,10 @@
   "name": "volosyuk/simple-eloquent",
   "description": "Adaptation of eloquent for retrieving its attributes",
   "license": "MIT",
-  "keywords": ["laravel", "eloquent"],
+  "keywords": [
+    "laravel",
+    "eloquent"
+  ],
   "authors": [
     {
       "name": "Andrey Volosyuk",
@@ -10,10 +13,10 @@
     }
   ],
   "require": {
-    "php": ">=7.3",
-    "illuminate/database": "^8.0",
-    "illuminate/support": "^8.0",
-    "illuminate/pagination": "^8.0"
+    "php": "^7.4|^8.0|^8.1",
+    "illuminate/database": "^8.0|^9.0",
+    "illuminate/support": "^8.0|^9.0",
+    "illuminate/pagination": "^8.0|^9.0"
   },
   "autoload": {
     "psr-4": {
